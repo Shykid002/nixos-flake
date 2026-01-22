@@ -12,7 +12,7 @@
     astal.url = "github:aylur/astal";
     nur.url = "github:nix-community/NUR";
     dotfiles = {
-      url = "github:samiulbasirfahim/Dotfiles";
+      url = "github:shykid002/nixos-flake";
       flake = false;
     };
     hardened-firefox = {
