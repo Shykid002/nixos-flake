@@ -14,9 +14,9 @@
 
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
-  #boot.initrd.kernelModules = [ "amdgpu" ];
+  boot.initrd.kernelModules = [ "amdgpu" ];
 
-  boot.initrd.kernelModules = [ "i915" ];
+  #boot.initrd.kernelModules = [ "i915" ];
   boot.kernelModules = [ ];
   hardware.firmware = [ "intel-ucode" ];
   services.acpi.enable = true
