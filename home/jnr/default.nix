@@ -13,7 +13,6 @@
     ./mpv
     ./mpd
     ./rmpc
-    ./mpc
     ./discord
     ./impermanence.nix
     ./git.nix
