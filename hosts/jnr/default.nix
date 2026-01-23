@@ -19,7 +19,7 @@
   #boot.initrd.kernelModules = [ "i915" ];
   boot.kernelModules = [ ];
   hardware.firmware = [ "intel-ucode" ];
-  services.acpi.enable = true;
+  services.acpid.enable = true;
 
 
   networking.hostName = "jnr";
