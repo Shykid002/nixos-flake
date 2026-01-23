@@ -1,5 +1,5 @@
 { inputs, pkgs, ... }: {
-  imports = [ ./audio.nix ./user.nix ./impermanence.nix ./stylix.nix ];
+  imports = [ ./audio.nix ./user.nix ./impermanence.nix #./stylix.nix ];
 
   systemd = {
     packages = [ pkgs.cloudflare-warp ];
