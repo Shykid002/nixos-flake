@@ -5,7 +5,7 @@
     userEmail = "Shykid002@gmail.com";
   };
 
-  # home.persistence."/nix/persist/home/rxen" = {
+  # home.persistence."/nix/persist/home/jnr" = {
   #   directories = [
   #     ".config/gh"
   #   ];
